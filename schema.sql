@@ -1,0 +1,20 @@
+CREATE TABLE surat (
+    ID                  INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    GRANT_NAME          VARCHAR(100) NOT NULL,
+    GRANT_ID            VARCHAR(100) NOT NULL,
+    LEADER_NAME         VARCHAR(100) NOT NULL,
+    TOTAL_HONORARIUM    DECIMAL(10, 2) NOT NULL,
+    Q1                  INT NOT NULL,
+    Q2                  INTEGER NOT NULL,
+    Q3                  INTEGER NOT NULL,
+    Q4                  INTEGER NOT NULL,
+    Q5                  INTEGER NOT NULL,
+    STUDENT_NAME        VARCHAR(100) NOT NULL,
+    STUDENT_NO          VARCHAR(100) NOT NULL,
+    MYKAD_NO            VARCHAR(100) NOT NULL,
+    PHONE_NO            VARCHAR(100) NOT NULL,
+    BANK_ACCT           VARCHAR(100) NOT NULL,
+    BANK_NAME           VARCHAR(100) NOT NULL,
+    DAY_RATE            VARCHAR(100) NOT NULL,
+    DAY_NO              VARCHAR(100) NOT NULL
+);
